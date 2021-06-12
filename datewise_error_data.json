@@ -6,66 +6,82 @@ dummy_data = [
   },
   {
     "date" : "2/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [1,1,0,0,0,0,0,0,1,0]
   },
   {
     "date" : "3/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [1,1,0,0,0,0,0,0,1,0]
   },
   {
     "date" : "4/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [1,1,0,0,0,0,0,0,1,0]
   },
   {
     "date" : "5/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [1,1,0,0,0,0,0,0,1,0]
   },
   {
     "date" : "6/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [1,1,0,0,0,0,0,0,1,0]
   },
   {
     "date" : "7/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [1,1,0,0,0,0,0,0,1,0]
   },
   {
     "date" : "8/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [1,1,0,0,0,0,0,0,1,0]
   },
   {
     "date" : "9/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [1,1,0,0,0,1,0,0,1,0]
   },
   {
     "date" : "10/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [0,0,0,0,0,0,0,0,1,0]
   },
   {
     "date" : "11/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [0,0,0,0,1,1,0,0,1,0]
   },
   {
     "date" : "12/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [1,1,0,0,0,0,0,0,1,0]
   },
   {
     "date" : "13/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [1,1,1,1,1,1,1,1,1,1]
   },
   {
     "date" : "14/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [1,1,0,0,0,0,0,0,1,0]
   },
   {
     "date" : "15/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [0,0,0,0,0,0,0,0,0,0]
   },
   {
     "date" : "16/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [1,1,0,0,0,0,0,0,1,0]
   },
   {
     "date" : "17/6",
+    "hyperlink" : "https://m.uber.com/",
     "vals" : [1,1,0,0,0,0,0,0,1,0]
   },
 
