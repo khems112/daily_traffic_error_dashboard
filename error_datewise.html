@@ -332,15 +332,19 @@
 
 <script>
   let today = 5
+  map = [];
   function render_data(){
     for(let date = 0;date < 7; date++ ){
       date_str = `#day_of_the_week_${date+1}`
-      $(date_str).html(`${dummy_data[today+date].date}`)
+      if(map[date+today]==undefined){
+        map[date+today] = dummy_data[today+date]
+      }
+      $(date_str).html(`${map[date+today].date}`)
       for(let module_no=0;module_no<+10;module_no++){
-        is_having_error = dummy_data[today+date].vals[module_no]
+        is_having_error = map[date+today].vals[module_no]
         str = `#matr_${1+date}_${1+module_no}`
         if(is_having_error==true){
-          $(str).html('<i class="fa fa-check" style="font-size:1em;color:green"></i>')
+          $(str).html('<i class=" fa fa-check" style="font-size:3vw;color:#16FF60"></i>')
         }
         else{
           $(str).html('')
@@ -352,12 +356,10 @@
   render_data()
   function show_me_future (){
     today++
-    console.log(today)
     render_data()
   }
   function show_me_past (){
     today--
-    console.log(today)
     render_data()
   }
 
