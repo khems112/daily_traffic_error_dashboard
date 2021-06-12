@@ -75,7 +75,6 @@ a{
   width: 4vh;
   font-size: 1vh;
   flex-direction: column;
-  justify-content: center;
 }
 
 .vertical_container{
@@ -88,6 +87,8 @@ a{
 }
 
 .date_change_buttons{
+  position: sticky;
+  top: 55%;
   font-size: 4em;
 }
 
