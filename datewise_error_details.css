@@ -1,6 +1,6 @@
   html{
         background-color: #dde1e7;
-        
+
     }
     a{
         text-decoration: none;
@@ -47,6 +47,7 @@
         margin: 10px;
         padding: 5px;
         border-radius: 15px;
+        align-content: center;
     }
     .pname{
         margin: 15px;
@@ -75,18 +76,19 @@
     }
 
     .picture {
-      background-color:brown;
+      background-color:whitesmoke;
       width: 30vh;
       height: 30vh;
       position: relative;
+
       border-radius: 20px;
     }
-    
+
     .image {
       display: block;
       border-radius: 20px;
     }
-    
+
     .overlay {
       position: absolute;
       bottom: 0;
@@ -100,15 +102,16 @@
       border-radius: 15px;
       text-align: center;
       justify-content: space-around;
+      align-content: center;
     }
-    
+
     .picture:hover .overlay {
       height: 100%;
     }
-    
+
     .text {
       /* color: #4285F4; */
-      color:rgb(1, 1, 49);
+      color:#444;
       font-size: 20px;
       position: absolute;
       top: 50%;
@@ -120,12 +123,14 @@
       overflow: scroll;
       height:100%;
     }
-    .alert{
-        background-color: #dde1e7;
-        border-radius: 10px;
-         width: 100%;
-    }
     h1{
-        color: #3a5311;
+        color: #444;
         /* background-color: #dde1e7; */
+    }
+    .alert{
+        background-color: whitesmoke;
+        border-radius: 10px;
+        width: 100%;
+        position: relative;
+        top: 25%;
     }
