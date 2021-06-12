@@ -7,7 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="//db.onlinewebfonts.com/c/7530190cfa46223bb3db0ba0ddde0d37?family=Uber+Move+Medium" rel="stylesheet" type="text/css"/>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="error_datewise.css">
 </head>
 <body>
   <div class="page_wrapper_outer">
@@ -96,15 +96,16 @@
   let today = 5
   map = [];
   function render_data(){
-    for(let date = 0;date < 7; date++ ){
-      date_str = `#day_of_the_week_${date+1}`
+    for(let date = 1;date <= 7; date++ ){
+      date_str = `#day_of_the_week_${date}`
       if(map[date+today]==undefined){
         map[date+today] = dummy_data[today+date]
       }
       $(date_str).html(`${map[date+today].date}`)
+      $(`#link_for_day_of_the_week_${date}`).attr('href',`${map[today+date].hyperlink}`)
       for(let module_no=0;module_no<+10;module_no++){
         is_having_error = map[date+today].vals[module_no]
-        str = `#matr_${1+date}_${1+module_no}`
+        str = `#matr_${date}_${1+module_no}`
         if(is_having_error==true){
           $(str).html('<i class=" fa fa-check" style="font-size:3vw;color:#16FF60"></i>')
         }
