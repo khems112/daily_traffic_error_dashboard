@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="datewise_error_details.css"></link>
+    <script type="text/javascript" src="data.json"></script>
+    <!-- <script type="text/javascript" src="app.js"></script> -->
+    <title>Alert Details</title>
+</head>
+<body>
+  
+    <div class="main_body">
+        <h1>Error Report on date: 11/06/2021</h1>
+        <div class="container">
+             
+        </div>
+    </div>
+    
+    
+</body>
+</html>
+<script>
+//  var mydata = JSON.parse(data);
+console.log(data)
+const num=data.length
+console.log(num)
+const c = document.querySelector('.container')
+console.log(c)
+for(let i=0;i<num;i++){
+    console.log(i)
+    let hold = document.createElement('div')
+    hold.classList.add('holder') //adds a class to the current  div
+    let pic=document.createElement('div')
+    pic.classList.add('picture') //adds a class to the current  div
+    // pic.innerHTML=`element ${i}`
+    let pname=document.createElement('div')
+    pname.classList.add('alert')
+    pname.innerHTML=`<h1>${data[i].alert}</h1>`
+    pic.appendChild(pname)
+
+    let over=document.createElement('div')
+    over.classList.add('overlay') 
+    // let txt=document.createElement('div')
+    let txt=document.createElement('ul')
+    txt.classList.add('text') 
+    txt.innerHTML=`<h3>Cities List</h3>`
+    let cities=data[i].cities
+    // const myArray = JSON.parse(cities)
+    console.log(cities)
+    for(let i=0;i<cities.length;i++){
+        // let li=document.createElement('li')
+        // if(cities[i]!=='[' & cities[i]!==']' & cities[i]!==',')
+        txt.innerHTML+=`<li>${cities[i]}</li>`
+    }
+    
+
+    over.appendChild(txt)
+    pic.appendChild(over)
+    hold.appendChild(pic)
+    c.appendChild(hold)
+}
+
+</script>
+
+
