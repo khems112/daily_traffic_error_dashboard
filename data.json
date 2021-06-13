@@ -1,6 +1,125 @@
 // data=[{"name" : "ABC", "age" : "20"},{"name" : "ayushi", "age" : "19"}]
 
-data=[{"cities": ["MUM","DEL","HYD","MUM","DEL","HYD","MUM","DEL","HYD","MUM","DEL","HYD","CHENNAI","BANGALORE","GOA"],"alert":"alert1"},{"cities": ["CHENNAI","BANGALORE","GOA","abc","def","pqr","abc","def","pqr"],"alert":"alert2"},{"cities": ["abc","def","pqr"],"alert":"alert3"}]
+data=[
+  {
+    "cities": [
+      "Hyd",
+      "Mum",
+      "Goa",
+      "Blr",
+      "Nsk",
+      "Wgl",
+      "Amd",
+      "Atq",
+      "Ixb",
+      "Bbi",
+      "Bho",
+      "Bom",
+      "Lol",
+      "Okk",
+      "Aww"
+    ],
+    "alert": "alert1"
+  },
+  {
+    "cities": [
+      "Nsk",
+      "Wgl",
+      "Amd",
+      "Atq",
+      "Ixb",
+      "Bbi",
+      "Bho",
+      "Bom",
+      "Lol",
+      "Okk",
+      "Aww",
+      "Hyd",
+      "Mum",
+      "Goa",
+      "Blr",
+      "Nsk",
+      "Wgl",
+      "Amd",
+      "Atq",
+      "Ixb",
+      "Bbi",
+      "Bho",
+      "Bom",
+      "Lol",
+      "Okk",
+      "Aww"
+    ],
+    "alert": "alert2"
+  },
+  {
+    "cities": [
+      "Mum",
+      "Goa",
+      "Blr",
+    ],
+    "alert": "alert3"
+  },
+  {
+    "cities": [
+      "abc",
+      "def",
+      "pqr",
+      "abc",
+      "def",
+      "pqr"
+    ],
+    "alert": "alert4"
+  },
+  {
+    "cities": [
+      "Nsk",
+      "Wgl",
+      "Amd",
+      "Atq",
+      "Ixb",
+      "Bbi",
+      "Bho",
+      "Bom",
+      "Lol",
+      "Okk",
+      "Aww"
+    ],
+    "alert": "alert5"
+  },
+  {
+    "cities": [
+      "Nsk",
+      "Wgl",
+      "Amd",
+      "Atq",
+      "Ixb",
+      "Bbi",
+      "Bho",
+      "Bom",
+      "Lol",
+      "Okk",
+      "Aww"
+    ],
+    "alert": "alert6"
+  },
+  {
+      "cities": [
+        "abc",
+        "def",
+        "pqr"
+      ],
+      "alert": "alert7"
+  },
+  {
+    "cities": [
+      "abc",
+      "def",
+      "pqr"
+    ],
+    "alert": "alert7"
+}
+]
 
 // data=[{"cities": "[delhi,Mumbai,Kolkāta,Bangalore,Chennai,Hyderābād,Pune,Ahmadābād,Sūrat,Lucknow,Jaipur,Cawnpore,Mirzāpur,Nāgpur,Ghāziābād,Indore,Vadodara,Vishākhapatnam]","alert":"alert1"},{"cities": "[X,Y,Z]","alert":"alert2"},{"cities": "[P,Q,R]","alert":"alert3"}]
 

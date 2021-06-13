@@ -9,15 +9,15 @@
     <title>Alert Details</title>
 </head>
 <body>
-  
+
     <div class="main_body">
         <h1>Error Report on date: 11/06/2021</h1>
         <div class="container">
-             
+
         </div>
     </div>
-    
-    
+
+
 </body>
 </html>
 <script>
@@ -40,20 +40,21 @@ for(let i=0;i<num;i++){
     pic.appendChild(pname)
 
     let over=document.createElement('div')
-    over.classList.add('overlay') 
+    over.classList.add('overlay')
     // let txt=document.createElement('div')
     let txt=document.createElement('ul')
-    txt.classList.add('text') 
-    txt.innerHTML=`<h3>Cities List</h3>`
+    txt.classList.add('text')
+    txt.innerHTML=`Cities List<br>`
     let cities=data[i].cities
     // const myArray = JSON.parse(cities)
     console.log(cities)
     for(let i=0;i<cities.length;i++){
-        // let li=document.createElement('li')
-        // if(cities[i]!=='[' & cities[i]!==']' & cities[i]!==',')
-        txt.innerHTML+=`<li>${cities[i]}</li>`
+        class_city_names =  document.createElement('div')
+        class_city_names.classList.add('city_name')
+        class_city_names.innerHTML = `${cities[i]}`
+        txt.appendChild(class_city_names)
     }
-    
+
 
     over.appendChild(txt)
     pic.appendChild(over)
