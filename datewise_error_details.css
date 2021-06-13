@@ -1,20 +1,22 @@
     .main_body{
         background-color:#f0f0ff;;
         text-align: center ;
-        padding: 3vh;
-        border-radius: 5vh;
-        margin-bottom: 5vh;
-        overflow: scroll;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-right: 3px;
+        padding-left: 3px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+
     }
     .container{
-        margin: auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        border-radius: 5vh;
+        border-radius: 20px;
         background-color: #dde1e7;
-        padding-bottom: 1.5vh;
+        padding-bottom: 15px;
         height: max-content;
     }
     .holder{
@@ -27,16 +29,16 @@
         width: max-content;
         height: max-content;
         align-items: center;
-        box-shadow: -0.5vh -0.5vh 0.7vh #fff,0.5vh 0.5vh 0.7vh #000 ;
+        box-shadow: -3px -3px 5px #fff,3px 3px 15px #000 ;
         border-radius: 20px;
         margin: 15px;
     }
     .picture{
-        margin: 1.5vh;
-        padding: 0.7vh;
+        margin: 10px;
+        padding: 5px;
         border-radius: 15px;
         align-content: center;
-        background-color:#dde1e7;
+        background-color:whitesmoke;
         width: 20vh;
         height: 15vh;
         position: relative;
@@ -58,7 +60,7 @@
         width: 100%;
         height: 0;
         transition: .5s ease;
-        border-radius: 3vh;
+        border-radius: 15px;
         text-align: center;
         justify-content: space-around;
         align-content: center;
@@ -68,39 +70,25 @@
         top: 0;
         bottom: auto;
         height: 100%;
-        background-color: #fff;
     }
 
     .picture:hover{
         height: 30vh;
-        background-color: #16FF60;
-
-    }
-
-    .picture:hover .alert{
-        background-color: #16FF60;
-        color: whitesmoke;
-    }
-
-    .picture:hover .holder{
-        background-color: #16FF60;
-        color: whitesmoke;
     }
 
     .text {
         /* color: #4285F4; */
         color:#444;
-        background-color: #fff;
         font-size: 20px;
         position: absolute;
         left: 8.5vh;
-        top: 15vh;
+        top: 12vh;
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: center;
         overflow: scroll;
-        height:80%;
+        height:90%;
         width: 90%;
     }
     h1{
