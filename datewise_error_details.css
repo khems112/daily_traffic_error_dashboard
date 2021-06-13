@@ -1,22 +1,24 @@
+    html{
+        font-family: "Uber Move Medium";
+    }
+
     .main_body{
         background-color:#f0f0ff;;
         text-align: center ;
-        padding-top: 5px;
-        padding-bottom: 10px;
-        padding-right: 3px;
-        padding-left: 3px;
-        border-radius: 20px;
-        margin-bottom: 20px;
-
+        padding: 3vh;
+        border-radius: 5vh;
+        margin-bottom: 5vh;
+        overflow: scroll;
     }
     .container{
+        margin: auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        border-radius: 20px;
+        border-radius: 5vh;
         background-color: #dde1e7;
-        padding-bottom: 15px;
+        padding-bottom: 1.5vh;
         height: max-content;
     }
     .holder{
@@ -29,16 +31,16 @@
         width: max-content;
         height: max-content;
         align-items: center;
-        box-shadow: -3px -3px 5px #fff,3px 3px 15px #000 ;
+        box-shadow: -0.5vh -0.5vh 0.7vh #fff,0.5vh 0.5vh 0.7vh #000 ;
         border-radius: 20px;
         margin: 15px;
     }
     .picture{
-        margin: 10px;
-        padding: 5px;
+        margin: 1.5vh;
+        padding: 0.7vh;
         border-radius: 15px;
         align-content: center;
-        background-color:whitesmoke;
+        background-color:#dde1e7;
         width: 20vh;
         height: 15vh;
         position: relative;
@@ -60,7 +62,7 @@
         width: 100%;
         height: 0;
         transition: .5s ease;
-        border-radius: 15px;
+        border-radius: 3vh;
         text-align: center;
         justify-content: space-around;
         align-content: center;
@@ -70,25 +72,39 @@
         top: 0;
         bottom: auto;
         height: 100%;
+        background-color: #fff;
     }
 
     .picture:hover{
         height: 30vh;
+        background-color: #16FF60;
+
+    }
+
+    .picture:hover .alert{
+        background-color: #16FF60;
+        color: whitesmoke;
+    }
+
+    .picture:hover .holder{
+        background-color: #16FF60;
+        color: whitesmoke;
     }
 
     .text {
         /* color: #4285F4; */
         color:#444;
+        background-color: #fff;
         font-size: 20px;
         position: absolute;
         left: 8.5vh;
-        top: 12vh;
+        top: 15vh;
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: center;
         overflow: scroll;
-        height:90%;
+        height:80%;
         width: 90%;
     }
     h1{
@@ -97,7 +113,9 @@
         /* background-color: #dde1e7; */
     }
     .alert{
-        background-color: whitesmoke;
+        background-color: #dde1e7;
+        font-size: 4vh;
+        font-weight: 200;
         border-radius: 10px;
         width: 100%;
         position: relative;
