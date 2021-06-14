@@ -32,7 +32,7 @@ dummy_data = [
   {
     "date" : "3/6",
     "hyperlink" : "datewise_error_details.html",
-    "vals" : [1,1,0,0,0,0,0,0,1,0]
+    "vals" : [0,0,0,0,0,0,0,0,0,0]
   },
   {
     "date" : "4/6",
@@ -52,7 +52,7 @@ dummy_data = [
   {
     "date" : "7/6",
     "hyperlink" : "datewise_error_details.html",
-    "vals" : [1,1,0,0,0,0,0,0,1,0]
+    "vals" :  [1,1,1,1,1,1,1,1,1,1]
   },
   {
     "date" : "8/6",
